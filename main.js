@@ -1,5 +1,5 @@
 let i1 = document.getElementById('i1');
-
+let error = document.getElementById('error');
 
 let result = document.getElementById('result');
 let clear = document.getElementById('clear');
@@ -164,7 +164,7 @@ equal.addEventListener('submit', (e)=>{
             }
             
             else {
-                i1.innerHTML = "Invalid input";
+                error.innerHTML = "Invalid input";
             }
     }
 });
